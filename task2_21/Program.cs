@@ -15,6 +15,9 @@
             //Console.WriteLine($"Баллы по математике: {nMath}");
             //Console.WriteLine($"Баллы по физике: {nPhis}");
             Console.ReadKey();
+            //Расчет среднего арифметического баллов по предметам
+            double nAvg = (nPhis + nProg + nMath) / 3;
+            Console.WriteLine("Средний бал по трем предметам: {0}" , nAvg);
         }
     }
 }
